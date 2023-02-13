@@ -1,0 +1,104 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --color1: #232345;
+}
+* body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+
+}
+#survey-form {
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 700px;
+    background-color: var(--color1);
+    padding: 1.5rem 3rem;
+    padding-right: 3.5rem;
+}
+.legend {
+    padding: .5rem 0;
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    text-align: center;
+    padding: 1.5rem;
+}
+#title {
+    font-size: 36px;
+}
+header p {
+    font-size: 18px;
+}
+/*--First section only--*/
+#first-section {
+    display: flex;
+    flex-direction: column;
+}
+.first-section-labels {
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-section-labels > input {
+    width: 100%;
+    padding: .9rem;
+    border-radius: 15px;
+    border-style: none;
+    margin: .8rem 0;
+}
+.first-section-labels > select {
+    width: 100%;
+    padding: .85rem;
+    border-radius: 15px;
+    border-style: none;
+    margin: .8rem 0;
+}
+option {
+    font-size: 18px;
+}
+/*--Seconnd section--*/
+input[type=radio] {
+    border: none;
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+/*--Third section--*/
+.third-section > p {
+    margin-top: -0.5rem;
+    
+}
+input[type=checkbox] {
+    border: none;
+    width: 25px;
+    height: 25px;
+    vertical-align: -7px;
+}
+#textarea {
+    border-radius: 15px;
+    padding: .5rem;
+    border: none;
+    resize: none;
+    width: 100%;
+}
+#submit {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 15px;
+    padding: .9rem;
+    border: none;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
